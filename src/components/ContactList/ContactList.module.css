@@ -1,0 +1,33 @@
+.contactList {
+  margin: 0;
+  padding: 0;
+}
+
+.contactListItem {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0), 0px 0px 18px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.22);
+  list-style: none;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+}
+.buttonTitle {
+  margin: 0;
+  padding: 4px;
+  font-size: 11px;
+  color: rgb(34, 34, 49);
+  background-color: rgb(167, 51, 51);
+}
+
+.contactName {
+  color: rgb(109, 109, 129);
+}

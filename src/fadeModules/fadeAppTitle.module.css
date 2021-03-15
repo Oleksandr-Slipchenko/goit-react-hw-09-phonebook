@@ -1,0 +1,39 @@
+/* .page {
+  width: 300px;
+} */
+
+.phoneBookTitle {
+  padding: 0;
+  margin-bottom: 20px;
+  color: rgb(72, 72, 182);
+}
+
+.findContacts {
+  padding: 5px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0), 0px 0px 18px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.22);
+}
+
+.findContactsTitle {
+  margin: 0;
+  font-size: 12px;
+}
+
+.loading {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  width: max-content;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(72, 72, 182);
+}
+
+.appear {
+  transform: translateX(-100%);
+}
+.appearActive {
+  transform: translateX(0);
+  transition: transform 500ms linear;
+}

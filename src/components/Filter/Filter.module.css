@@ -1,0 +1,11 @@
+/* .filter {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0), 0px 0px 18px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.22);
+} */
+
+.filterInput {
+  display: block;
+  /* margin-bottom: 30px; */
+  width: 100%;
+  height: 30px;
+}
