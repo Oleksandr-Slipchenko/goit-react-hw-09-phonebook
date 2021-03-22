@@ -46,6 +46,8 @@ const logIn = credentials => async dispatch => {
 
     token.set(response.data.token);
     dispatch(authActions.loginSuccess(response.data));
+
+    console.log(response.data);
   } catch (error) {
     dispatch(authActions.loginError(error.message));
   }
@@ -166,5 +168,3 @@ export default operations;
 //   },
 // );
 ///////////////////////////////////////
-
-
